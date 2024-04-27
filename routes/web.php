@@ -40,6 +40,8 @@ Route :: get("/redirect",[HomeController::class, 'redirect']);
 
 Route :: get("/add_employee_view",[AdminController::class, 'addview']);
 
+Route :: get("/display_employee_view",[AdminController::class, 'addview2']);
+
 
 Route :: post("/upload_employee",[AdminController::class, 'upload']);
 

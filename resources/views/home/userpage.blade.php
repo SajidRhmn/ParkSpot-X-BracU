@@ -68,13 +68,13 @@
   <!-- end pricing section -->
 
 
-  <!-- client section -->
-  @include("home.clientSection")
+  <!-- client section 
+  @include("home.clientSection") -->
 
   <!-- end client section -->
 
-  <!-- info section -->
-  @include("home.info")
+  <!-- info section 
+  @include("home.info")-->
   <!-- end info_section -->
 
   <!-- footer section -->

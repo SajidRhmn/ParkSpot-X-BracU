@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\Models\User;
+use App\Models\parking_attendants;
 
 class HomeController extends Controller
 {   
@@ -40,6 +41,14 @@ class HomeController extends Controller
     {
        return view("home.my_bookings");
     }
+
+    public function employees()
+    {  $parking_attendants = parking_attendants::all();
+       return view("admin.my_bookings", compact('parking_attendants'));
+    }
+
+
+
 
     public function search()
 {

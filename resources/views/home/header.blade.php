@@ -3,7 +3,7 @@
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="index.html">
             <span>
-              ParkSpot X BracU
+              ParkSpot X BracU   ||
             </span>
           </a>
 
@@ -17,14 +17,21 @@
                 <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html"> About</a>
+                <a class="nav-link" href="about.html"> Parking</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="pricing.html">Pricing</a>
+                <a class="nav-link" href="pricing.html">Get the App</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="why.html">Why Us</a>
+                <a class="nav-link" href="why.html">Scan</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="why.html">Special Offers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="why.html">Support</a>
+              </li>
+              
               <li class="nav-item">
                 <a class="nav-link" href="testimonial.html">||</a>
               </li>

@@ -65,6 +65,15 @@
               <span class="menu-title">Add Parking attendant</span>
             </a>
           </li>
+
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="{{url('display_employee_view')}}">
+              <span class="menu-icon">
+                <i class="mdi mdi-file-document-box"></i>
+              </span>
+              <span class="menu-title">Display Parking attendant Roles and Position</span>
+            </a>
+          </li>
         </ul>
       </nav>
 

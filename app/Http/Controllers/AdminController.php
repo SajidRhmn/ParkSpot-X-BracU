@@ -6,11 +6,19 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\parking_attendants;
 
+
 class AdminController extends Controller
 {
     public function addview() 
     {
        return view("admin.add_employee");
+    }
+
+
+    public function addview2() 
+    {$parking_attendants = parking_attendants::all();
+    
+       return view("admin.show_employees",compact('parking_attendants'));
     }
 
 
